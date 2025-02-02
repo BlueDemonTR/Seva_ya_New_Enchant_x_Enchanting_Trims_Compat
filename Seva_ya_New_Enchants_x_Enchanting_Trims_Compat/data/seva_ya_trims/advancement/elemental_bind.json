@@ -1,0 +1,31 @@
+{
+	"parent": "seva_ya_trims:sharpness",
+	"criteria": {
+	  "diamond": {
+		"conditions": {
+		  "items": [
+			{
+			  "items": "seva_ya_trims:elemental_bind_enchanting_template"
+			}
+		  ]
+		},
+		"trigger": "minecraft:inventory_changed"
+	  }
+	},
+	"display": {
+	  "description": "Make a Warm Frog eat a magma cube in a Cold Biome",
+	  "icon": {
+		"count": 1,
+		"id": "minecraft:pearlescent_froglight"
+	  },
+	  "title": "Elemental Bind",
+	  "show_toast": true,
+	  "announce_to_chat": false
+	},
+	"requirements": [
+	  [
+		"diamond"
+	  ]
+	],
+	"sends_telemetry_event": true
+}

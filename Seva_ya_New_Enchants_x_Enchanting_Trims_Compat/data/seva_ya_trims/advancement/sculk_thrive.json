@@ -1,0 +1,31 @@
+{
+	"parent": "seva_ya_trims:sharpness",
+	"criteria": {
+	  "diamond": {
+		"conditions": {
+		  "items": [
+			{
+			  "items": "seva_ya_trims:sculk_thrive_enchanting_template"
+			}
+		  ]
+		},
+		"trigger": "minecraft:inventory_changed"
+	  }
+	},
+	"display": {
+	  "description": "Kill a warden",
+	  "icon": {
+		"count": 1,
+		"id": "minecraft:sculk_catalyst"
+	  },
+	  "title": "Sculk Thrive",
+	  "show_toast": true,
+	  "announce_to_chat": false
+	},
+	"requirements": [
+	  [
+		"diamond"
+	  ]
+	],
+	"sends_telemetry_event": true
+}

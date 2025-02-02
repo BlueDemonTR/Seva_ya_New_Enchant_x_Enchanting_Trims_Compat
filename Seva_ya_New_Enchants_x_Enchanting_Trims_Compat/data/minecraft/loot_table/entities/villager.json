@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "seva_ya_trims:humans_bane_enchanting_template"
+		  }
+		],
+		"conditions": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "attacker",
+			"predicate": {
+			  "effects": {
+				"minecraft:hero_of_the_village": {}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "nbt": "{VillagerData:{profession:\"minecraft:nitwit\"}}"
+			}
+		  }
+		]
+	  }
+	],
+	"random_sequence": "minecraft:entities/villager"
+  }

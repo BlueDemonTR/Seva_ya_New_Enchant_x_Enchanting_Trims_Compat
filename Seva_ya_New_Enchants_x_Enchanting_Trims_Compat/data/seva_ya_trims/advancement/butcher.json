@@ -1,0 +1,31 @@
+{
+	"parent": "seva_ya_trims:sharpness",
+	"criteria": {
+	  "diamond": {
+		"conditions": {
+		  "items": [
+			{
+			  "items": "seva_ya_trims:butcher_enchanting_template"
+			}
+		  ]
+		},
+		"trigger": "minecraft:inventory_changed"
+	  }
+	},
+	"display": {
+	  "description": "Kill an illager named \"Johnny\" by freezing it.",
+	  "icon": {
+		"count": 1,
+		"id": "minecraft:ice"
+	  },
+	  "title": "Butcher",
+	  "show_toast": true,
+	  "announce_to_chat": false
+	},
+	"requirements": [
+	  [
+		"diamond"
+	  ]
+	],
+	"sends_telemetry_event": true
+}

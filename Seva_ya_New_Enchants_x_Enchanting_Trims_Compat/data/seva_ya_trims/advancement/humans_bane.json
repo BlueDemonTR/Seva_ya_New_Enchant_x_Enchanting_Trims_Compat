@@ -1,0 +1,31 @@
+{
+	"parent": "seva_ya_trims:sharpness",
+	"criteria": {
+	  "has_trim": {
+		"conditions": {
+		  "items": [
+			{
+			  "items": "seva_ya_trims:humans_bane_enchanting_template"
+			}
+		  ]
+		},
+		"trigger": "minecraft:inventory_changed"
+	  }
+	},
+	"display": {
+	  "description": "Kill a Nitwit while you have Hero of the Village",
+	  "icon": {
+		"count": 1,
+		"id": "minecraft:emerald"
+	  },
+	  "title": "Humanity's Greatest Enemy",
+	  "show_toast": true,
+	  "announce_to_chat": false
+	},
+	"requirements": [
+	  [
+		"has_trim"
+	  ]
+	],
+	"sends_telemetry_event": true
+  }
